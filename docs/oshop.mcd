@@ -1,0 +1,14 @@
+CATEGORY: category name, subtitle, picture, home order
+is tagged as, 0N TAG, 0N PRODUCT
+TAG: tag name
+APP_USER: email, password, firstname, lastname, role, status
+
+related to, 01 PRODUCT, 0N CATEGORY
+PRODUCT: product name, description, picture, price, rate, status
+is a, 0N TYPE, 11 PRODUCT
+TYPE: type name, footer order
+
+:
+made, 0N BRAND, 11 PRODUCT
+BRAND: brand name, footer order
+:
